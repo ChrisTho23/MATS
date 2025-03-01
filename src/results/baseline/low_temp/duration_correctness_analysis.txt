@@ -1,0 +1,24 @@
+Duration vs Correctness Analysis
+===============================
+
+Total problems: 10
+Correct answers: 5
+Incorrect answers: 5
+
+Correlation Analysis:
+  Correlation coefficient: -0.671
+  p-value: 0.034
+
+Partial Correlation (controlling for difficulty):
+  Partial correlation: -0.641
+  p-value: 0.046
+
+Logistic Regression:
+  Coefficient: -0.0096
+  Intercept: 0.9448
+  Interpretation: Shorter duration increases probability of correctness
+
+Duration Statistics:
+  Average duration for correct answers: 74.87 seconds
+  Average duration for incorrect answers: 238.58 seconds
+  Correct answers take 68.6% shorter than incorrect ones

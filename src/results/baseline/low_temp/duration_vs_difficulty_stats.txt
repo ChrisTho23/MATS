@@ -1,0 +1,10 @@
+Duration Statistics (seconds):
+Mean Duration: 156.73
+Median Duration: 126.18
+Min Duration: 29.48
+Max Duration: 415.06
+Standard Deviation: 122.05
+
+Correlation between difficulty and duration:
+Correlation Coefficient: -0.63
+Linear Fit: Duration = -26.73 * Difficulty + 303.74

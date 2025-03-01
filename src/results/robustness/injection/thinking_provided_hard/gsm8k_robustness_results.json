@@ -1,0 +1,61 @@
+[
+  {
+    "question": "Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?",
+    "reference_answer": "120",
+    "majority_answer": "120",
+    "is_correct": true,
+    "consistency_ratio": 0.8,
+    "answer_distribution": {
+      "120": 8,
+      "360": 2
+    },
+    "num_runs": 10,
+    "individual_runs": [
+      {
+        "run": 1,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 2,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 3,
+        "extracted_answer": "360"
+      },
+      {
+        "run": 4,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 5,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 6,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 7,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 8,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 9,
+        "extracted_answer": "360"
+      },
+      {
+        "run": 10,
+        "extracted_answer": "120"
+      }
+    ],
+    "difficulty": 9,
+    "question_id": "question_0",
+    "injection_used": true,
+    "injection_text": "First, determine the total number of minutes Tim spends answering phones each day.\\n\\nNext, calculate the number of calls he can handle each day by dividing the total minutes by the time it takes to address each call.\\nFinally, to find the total number of calls over a 5-day work week, multiply the daily calls by 5.\\n</think>",
+    "full_outputs_file": "full_outputs/question_0.json"
+  }
+]

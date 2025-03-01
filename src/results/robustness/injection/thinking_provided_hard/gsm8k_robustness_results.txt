@@ -1,0 +1,23 @@
+GSM8K Robustness Benchmark Results (Incremental)
+Model: DeepSeek-R1-Distill-Qwen-1.5B
+
+Using reasoning injection:
+First, determine the total number of minutes Tim spends answering phones each day.\n\nNext, calculate the number of calls he can handle each day by dividing the total minutes by the time it takes to a... (truncated)
+
+Number of problems evaluated so far: 1
+Number of runs per problem: 10
+Overall accuracy: 100.00%
+Average consistency ratio: 80.00%
+
+Example 1:
+Question: Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?
+Reference answer: 120
+Majority answer: 120
+Is correct: True
+Consistency ratio: 0.80
+Difficulty: 9
+Answer distribution:
+  120: 8/10 (80.0%)
+  360: 2/10 (20.0%)
+--------------------------------------------------
+

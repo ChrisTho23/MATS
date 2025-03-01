@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?",
+    "reference_answer": "120",
+    "majority_answer": "4000",
+    "is_correct": false,
+    "consistency_ratio": 0.6,
+    "answer_distribution": {
+      "4000": 6,
+      "120": 2,
+      "12000": 2
+    },
+    "num_runs": 10,
+    "individual_runs": [
+      {
+        "run": 1,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 2,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 3,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 4,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 5,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 6,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 7,
+        "extracted_answer": "12000"
+      },
+      {
+        "run": 8,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 9,
+        "extracted_answer": "4000"
+      },
+      {
+        "run": 10,
+        "extracted_answer": "12000"
+      }
+    ],
+    "difficulty": 9,
+    "question_id": "question_0",
+    "injection_used": true,
+    "injection_text": "First, determine the total number of minutes Tim spends answering phones each day. Since he spends 6 hours each day and there are 60 minutes in an hour, he spends 6 * 60 = 360 minutes per day.\\n\\nNext, calculate the number of calls he can handle each day by dividing the total minutes by the time it takes to address each call. So, 360 minutes divided by 15 minutes per call equals 24 calls per day.\\n\\nFinally, to find the total number of calls over a 5-day work week, multiply the daily calls by 5. Therefore, 24 calls/day * 5 days = 120 calls in total.\\n</think>\\n\\nTo determine how many calls Tim deals with during his 5-day work week, follow these steps:\\n\\n1. **Calculate the total minutes Tim spends answering phones each day:**\\n   \\[\\n   6\\ \\text{hours/day} \\times 60\\ \\text{minutes/hour} = 12000\\ \\text{minutes/day}\\n   \\]\\n\\n2.",
+    "full_outputs_file": "full_outputs/question_0.json"
+  }
+]

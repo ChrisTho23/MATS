@@ -1,0 +1,24 @@
+GSM8K Robustness Benchmark Results (Incremental)
+Model: DeepSeek-R1-Distill-Qwen-1.5B
+
+Using reasoning injection:
+First, determine the total number of minutes Tim spends answering phones each day. Since he spends 6 hours each day and there are 60 minutes in an hour, he spends 6 * 60 = 360 minutes per day.\n\nNext... (truncated)
+
+Number of problems evaluated so far: 1
+Number of runs per problem: 10
+Overall accuracy: 0.00%
+Average consistency ratio: 60.00%
+
+Example 1:
+Question: Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?
+Reference answer: 120
+Majority answer: 4000
+Is correct: False
+Consistency ratio: 0.60
+Difficulty: 9
+Answer distribution:
+  4000: 6/10 (60.0%)
+  120: 2/10 (20.0%)
+  12000: 2/10 (20.0%)
+--------------------------------------------------
+

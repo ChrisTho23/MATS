@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Tim spends 6 hours each day at work answering phones.  It takes him 15 minutes to deal with a call.  How many calls does he deal with during his 5 day work week?",
+    "reference_answer": "120",
+    "majority_answer": "120",
+    "is_correct": true,
+    "consistency_ratio": 0.4,
+    "answer_distribution": {
+      "132": 2,
+      "120": 4,
+      "15": 1,
+      "4": 1,
+      "24": 1,
+      "125": 1
+    },
+    "num_runs": 10,
+    "individual_runs": [
+      {
+        "run": 1,
+        "extracted_answer": "132"
+      },
+      {
+        "run": 2,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 3,
+        "extracted_answer": "132"
+      },
+      {
+        "run": 4,
+        "extracted_answer": "15"
+      },
+      {
+        "run": 5,
+        "extracted_answer": "4"
+      },
+      {
+        "run": 6,
+        "extracted_answer": "24"
+      },
+      {
+        "run": 7,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 8,
+        "extracted_answer": "125"
+      },
+      {
+        "run": 9,
+        "extracted_answer": "120"
+      },
+      {
+        "run": 10,
+        "extracted_answer": "120"
+      }
+    ],
+    "difficulty": 9,
+    "question_id": "question_0",
+    "injection_used": false,
+    "injection_text": null,
+    "full_outputs_file": "full_outputs/question_0.json"
+  }
+]

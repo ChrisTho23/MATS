@@ -1,0 +1,28 @@
+{
+  "correlation_coefficient": -0.6706297767780113,
+  "p_value": 0.03379981295045583,
+  "logistic_regression_coefficient": -0.009581293444666012,
+  "logistic_regression_intercept": 0.944816121864011,
+  "avg_correct_duration": 74.87493848800659,
+  "avg_incorrect_duration": 238.57596888542176,
+  "duration_difference_percentage": -68.61589252353998,
+  "partial_correlation_controlling_for_difficulty": -0.6414416481543879,
+  "partial_correlation_p_value": 0.04560931706798001,
+  "binned_durations": [
+    68.03639376163483,
+    145.15263402462006,
+    222.26887428760529,
+    299.3851145505905,
+    376.50135481357574
+  ],
+  "binned_accuracy": [
+    0.8,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "correct_count": 5,
+  "incorrect_count": 5,
+  "total_count": 10
+}
